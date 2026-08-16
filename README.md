@@ -7,6 +7,13 @@ This project analyzes Swiggy food delivery and sales data using **Microsoft Exce
 The project focuses on transforming raw Swiggy order data into meaningful **KPIs, analytical reports, and an interactive Excel dashboard** that can support data-driven business decision-making.
 
 ---
+### 📊 Final Excel Dashboard Report
+
+The completed Excel analysis and interactive dashboard:
+
+**[View / Download Final Dashboard Report](https://docs.google.com/spreadsheets/d/14JzrezP8XSzCNBptKpo7oF_NcCLE_qqv/edit?usp=sharing&ouid=100621301166513613000&rtpof=true&sd=true)**
+
+---
 
 ## 🎯 Project Objectives
 
