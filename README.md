@@ -1,157 +1,253 @@
-# 🍽️ Swiggy Sales Analysis Dashboard
-
-An end-to-end **Sales & Performance Analysis** project built using **Microsoft Excel**, focused on uncovering key business insights from Swiggy food delivery data through an **interactive dashboard**.
-
----
+# 🍔 Swiggy Sales Analysis & Business Performance Dashboard
 
 ## 📌 Project Overview
 
-Food delivery platforms like Swiggy generate large volumes of transactional data every day.  
-This project converts raw sales data into **actionable insights** by analyzing:
+This project analyzes Swiggy food delivery and sales data using **Microsoft Excel** to understand business performance, sales trends, customer behavior, and operational patterns.
 
-- Revenue performance
-- Customer ordering behavior
-- Ratings and reviews
-- Time-based trends
-- Geographic sales distribution
-
-An **interactive Excel dashboard** is designed to support quick decision-making.
+The project focuses on transforming raw Swiggy order data into meaningful **KPIs, analytical reports, and an interactive Excel dashboard** that can support data-driven business decision-making.
 
 ---
 
 ## 🎯 Project Objectives
 
-- Analyze overall sales and order performance
-- Identify daily, weekly, monthly, and quarterly trends
-- Compare **Veg vs Non-Veg** revenue contribution
-- Track state-wise and city-wise sales
-- Measure customer satisfaction using ratings
-- Provide an easy navigation system for stakeholders
+The main objectives of this project are:
+
+- Analyze overall Swiggy sales performance
+- Track total sales and order volume
+- Analyze monthly and daily sales trends
+- Calculate key business KPIs
+- Understand restaurant, city, category, and food-type performance
+- Analyze customer ratings and rating counts
+- Identify important sales trends and business opportunities
+- Build an interactive dashboard for management reporting
+- Present insights in a clear and business-friendly format
 
 ---
 
-## 📊 Key Performance Indicators (KPIs)
-
-| KPI | Description |
-|---|---|
-| **Total Sales (₹)** | Total revenue generated from food orders |
-| **Total Orders** | Total number of orders placed |
-| **Average Order Value (₹)** | Revenue per order |
-| **Average Rating** | Overall customer satisfaction |
-| **Ratings Count** | Total number of customer reviews |
-
----
-
-## 📈 Business Requirement Document (BRD)
-
-### 📌 Charts & Visualizations
-
-- **Monthly Sales Trend** – Tracks sales fluctuations month by month
-- **Daily Sales Trend** – Shows order and revenue variation by weekday
-- **Weekly Sales Analysis** – Identifies weekly performance patterns
-- **Sales by Food Type (Veg vs Non-Veg)** – Compares revenue contribution
-- **Quarterly Performance Summary** – Sales, Ratings, Orders by quarter
-- **State-wise Sales (Map Visualization)** – Revenue distribution across India
-- **Top 5 Cities by Sales** – Identifies top revenue-generating cities
-
----
-
-## 🧭 Interactive Navigation (Dashboard Controls)
-
-The dashboard includes **interactive navigation buttons** located in the **upper-right section** for seamless user experience:
-
-| Button | Action |
-|---|---|
-| **Dashboard** | Opens the main interactive sales dashboard |
-| **Analysis** | Opens the detailed data analysis worksheet |
-| **Data** | Opens the complete Swiggy raw dataset |
-
-📌 This navigation allows users to switch between **summary view**, **deep analysis**, and **raw data** without scrolling.
-
----
-
-## 🛠️ Tools & Technologies Used
+## 🛠️ Tools & Technologies
 
 - **Microsoft Excel**
-  - Data Cleaning & Transformation
-  - Pivot Tables & Pivot Charts
-  - Slicers & Filters
-  - KPI Cards
-- **Data Analysis Techniques**
-  - Aggregation
-  - Trend Analysis
-  - Comparative Analysis
-  - Geographic Analysis
+- **Power Query**
+- **Pivot Tables**
+- **Pivot Charts**
+- **Slicers**
+- **VLOOKUP**
+- **Data Cleaning**
+- **Data Analysis**
+- **KPI Reporting**
+- **Dashboard Development**
+- **Business Intelligence**
 
 ---
 
-## 📁 Dataset
+## 📂 Dataset
 
-The dataset used in this project contains **Swiggy food order transaction data** and is used for **sales, customer behavior, and performance analysis**.
+The dataset contains Swiggy order-level information including:
 
-### 📄 Dataset Details
-The dataset includes the following key fields:
-
-- Order Date  
-- Order ID  
-- Restaurant Name  
-- City & State  
-- Food Category (Veg / Non-Veg)  
-- Sales Amount (₹)  
-- Order Quantity  
-- Customer Rating  
-- Ratings Count  
-
-### 🔗 Dataset Access (Google Drive)
-You can download the dataset from the link below:
-
-👉 **Dataset Link:**  
-[Click here to access the Swiggy Sales Dataset](https://docs.google.com/spreadsheets/d/1-pM3F674On37CyTyCNMCWF7xjaF_DuDn/edit?usp=sharing&ouid=100621301166513613000&rtpof=true&sd=true)
-
----
-
-## 📷 Dashboard Preview
-
-### 🔹 Interactive Swiggy Sales Dashboard
-![Dashboard](Screenshots/Dashboard.png)
-
-### 🔹 Problem Statement – KPIs
-![KPIs](https://drive.google.com/file/d/1--hhsy0-_33gAfGn0WQQ_dVZntnGUSnz/view?usp=sharing)
-
-### 🔹 Problem Statement – Charts
-![Charts](https://drive.google.com/file/d/1zQr8E7vxQ9MytJ6pXQ6ZzEf94wCvw0oN/view?usp=sharing)
+| Column | Description |
+|---|---|
+| Order ID | Unique identifier for each order |
+| State | State where the order was placed |
+| City | City where the order was placed |
+| Order Date | Date of the order |
+| Day | Day of the week |
+| Quarter | Financial/calendar quarter |
+| Week | Week number |
+| Restaurant Name | Restaurant associated with the order |
+| Location | Restaurant location |
+| Category | Food/order category |
+| Dish Name | Name of the dish |
+| Food Type | Veg/Non-Veg classification |
+| Price (INR) | Order/dish price |
+| Rating | Customer rating |
+| Rating Count | Number of ratings |
 
 ---
 
-## 🔍 Key Insights
+## 📊 Key KPIs
 
-- **Non-Veg food** contributes a higher share of total revenue
-- **Weekends** show increased order volume
-- Sales are concentrated in a few **top-performing states and cities**
-- Customer ratings remain **consistently high** across quarters
+The dashboard calculates the following major business KPIs:
 
----
+- **Total Sales:** ₹53,012,505.77
+- **Total Orders:** 197,430
+- **Average Order Value (AOV):** ₹268.51
+- **Average Rating:** 4.34
+- **Total Rating Count:** 5,591,574
 
-## 🚀 Conclusion
-
-This project demonstrates how **Excel can be used as a powerful BI and analytics tool** to:
-
-- Transform raw data into insights
-- Track business performance using KPIs
-- Build interactive, stakeholder-friendly dashboards
-
-It highlights skills in **data analysis, business understanding, dashboard design, and storytelling**.
+These KPIs provide a high-level overview of overall business performance.
 
 ---
 
-## 📬 Author
+## 📑 Excel Workbook Structure
 
-**Abir Shee**  
-Aspiring Data Analyst  
+The final Excel report contains the following sheets:
 
-📧 Email: abircsekolkata004@gmail.com
+### 1. Data Analysis Sheet
+
+Contains the major business KPIs and analytical summaries used to understand overall Swiggy performance.
+
+Key metrics include:
+
+- Total Sales
+- Average Rating
+- Rating Count
+- Total Orders
+- Average Order Value (AOV)
 
 ---
 
-⭐ If you find this project useful, feel free to star the repository!
+### 2. Monthly Sales
 
+Analyzes sales performance across different months.
+
+This sheet helps identify:
+
+- Monthly sales trends
+- High-performing months
+- Low-performing months
+- Changes in sales performance over time
+
+---
+
+### 3. Daily Sales
+
+Provides a more detailed view of sales performance across days and time periods.
+
+This analysis can be used to identify:
+
+- Daily sales trends
+- High-performing days
+- Sales fluctuations
+- Potential business opportunities
+
+---
+
+### 4. Swiggy Data
+
+Contains the raw/order-level dataset used for analysis.
+
+The dataset includes information related to:
+
+- Orders
+- Locations
+- Restaurants
+- Categories
+- Dishes
+- Food types
+- Prices
+- Ratings
+- Rating counts
+- Dates
+
+---
+
+### 5. Dashboard
+
+An interactive Excel dashboard designed to provide a consolidated view of Swiggy's business performance.
+
+The dashboard enables users to analyze the data through interactive filters and visualizations.
+
+---
+
+## 📈 Dashboard Features
+
+The dashboard includes interactive analysis using:
+
+- Pivot Tables
+- Pivot Charts
+- Slicers
+- KPI cards
+- Sales analysis
+- Order analysis
+- Rating analysis
+- Geographic/business performance analysis
+
+Interactive filters allow users to explore the data based on different business dimensions.
+
+---
+
+## 🔍 Analysis Performed
+
+### Sales Analysis
+
+- Total sales analysis
+- Monthly sales performance
+- Daily sales trends
+- Average Order Value analysis
+
+### Order Analysis
+
+- Total order volume
+- Order distribution across locations
+- Restaurant and category performance
+
+### Customer Rating Analysis
+
+- Average customer rating
+- Rating count analysis
+- Rating distribution across business dimensions
+
+### Business Performance Analysis
+
+- City-level performance
+- Restaurant-level performance
+- Category-level performance
+- Food-type analysis
+- Identification of trends and performance gaps
+
+---
+
+## 💡 Business Insights
+
+The analysis helps management understand:
+
+- Overall sales and order performance
+- Monthly and daily sales patterns
+- High-performing business segments
+- Customer satisfaction through ratings
+- Restaurant and category performance
+- Potential areas for improving sales and customer engagement
+
+---
+
+## 📁 Project Files
+
+### 🔗 Raw Dataset
+
+The original/raw dataset used for this analysis:
+
+**[Download Raw Dataset](https://docs.google.com/spreadsheets/d/16nGDVqcjM8Imuen9Ye5-AOrux0rR4wC6/edit?usp=sharing&ouid=100621301166513613000&rtpof=true&sd=true)**
+
+### 📊 Final Excel Dashboard Report
+
+The completed Excel analysis and interactive dashboard:
+
+**[View / Download Final Dashboard Report](https://docs.google.com/spreadsheets/d/14JzrezP8XSzCNBptKpo7oF_NcCLE_qqv/edit?usp=sharing&ouid=100621301166513613000&rtpof=true&sd=true)**
+
+---
+
+## 🚀 How to Use
+
+1. Download the **Final Excel Dashboard Report**.
+2. Open the workbook using Microsoft Excel.
+3. Navigate to the **Dashboard** sheet.
+4. Use the available slicers and filters to explore the data.
+5. Review the KPI cards and charts.
+6. Explore the supporting analysis in the Monthly Sales, Daily Sales, and Data Analysis sheets.
+
+---
+
+## 👨‍💻 Author
+
+**Abir Shee**
+
+B.Tech – Computer Science | 2026 Graduate
+
+### Connect with me
+
+- [GitHub](https://github.com/abirshee004)
+- [LinkedIn](https://www.linkedin.com/in/abir-shee-7bb4bb255/)
+
+---
+
+⭐ If you find this project useful, feel free to explore the repository and connect with me!
